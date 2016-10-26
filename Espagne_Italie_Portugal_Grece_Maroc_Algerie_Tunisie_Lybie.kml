@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Espagne_Italie_Portugal_Grece_Maroc_Algerie_Tunisie_Lybie.kml</name>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4c3644db</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>4c3644db</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Libye</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						11.56682407673358,33.02177279011875,0 11.55728295449349,32.46935379633678,0 10.21141255992341,31.51557469916422,0 10.21389127544069,30.97032674372297,0 9.932906040330201,30.38535956820551,0 9.448150017230583,30.18607053532282,0 9.809097289906884,29.38796054976915,0 9.978488927383559,26.70064536365555,0 9.477611910853723,26.2048198316691,0 10.10237636308285,25.32036789810672,0 10.33788760889058,24.59392118731771,0 10.93298637638671,24.56152300262692,0 11.5906421656258,24.24068129014404,0 11.95879254886226,23.5140865813453,0 13.44973001791823,23.13079822833134,0 14.26771483187921,22.62509418662798,0 15.96941047258688,23.41091259950497,0 24.02163331062373,19.43785806468168,0 24.04976532141674,19.96125914511241,0 25.06323519680172,19.99638706867996,0 25.17614100168289,31.81154939901493,0 23.37988000785187,32.26529064298641,0 23.20377036703379,32.5380917734232,0 21.8887639883956,32.90000278121654,0 21.11093749263611,32.71868190145226,0 20.05133638481908,31.9917818333822,0 20.15518908281593,31.16898763598917,0 19.95574319136858,30.71376116066285,0 19.08347198886143,30.30451058895406,0 18.37670122499623,30.71404973858869,0 15.68156369057391,31.57101405058304,0 15.22759201480383,32.36024819143838,0 13.01740349205621,32.85210116262248,0 11.7267052060469,33.13997744309852,0 11.56682407673358,33.02177279011875,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
